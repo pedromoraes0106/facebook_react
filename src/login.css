@@ -1,0 +1,64 @@
+.mainLogin{
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.mainLogin .form{
+    text-align: left;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    border: 0;
+    border-radius: 30px;
+}
+.mainLogin .form input{
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+}
+
+.mainLogin .form button{
+    background-color: rgb(91, 161, 253);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    transition: 0.5s;
+}
+.mainLogin .form button:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(43, 135, 255);
+}
+
+h1.tFace{
+    color: rgb(43, 135, 255);
+    text-align: center;
+}
+
+.regis
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2
+{
+    margin-left: 0px;
+    color: black;
+}
+
+.button1
+{
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+}
